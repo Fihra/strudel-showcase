@@ -2,3 +2,34 @@ body {
     background-color: black;
     color: white;
 }
+
+main {
+    text-align: center;
+}
+
+#back-to-top {
+    position: fixed;
+    left: 50px;
+    bottom: 20px;
+    
+}
+
+.days-container {
+    display: flex;
+    justify-content: center;
+}
+
+.days-container img {
+    padding: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.days-container ul {
+    padding-left: 0;
+}
+
+.days-container ul li {
+    list-style-type: none;
+    margin: 14px;
+}
